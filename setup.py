@@ -11,7 +11,7 @@ PACKAGES = [
     'e2etest'
 ]
 KEYWORDS = 'e2e test End-to-End'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 setup(
     name=NAME,
