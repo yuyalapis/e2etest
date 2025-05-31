@@ -6,12 +6,13 @@ class E2E(object):
       self.url = url
       session = HTMLSession()
       r = session.get(self.url)
-   def exists(tag):
+      self.r = r
+   def exists(self, tag):
       if r.html.find(tag):
          return True
       else:
          return False
-   def get_text(tag):
+   def get_text(self, tag):
       if not r.html.find(tag):
          return None
       return [t.text for t in r.html.find(tag)]
