@@ -8,11 +8,11 @@ class E2E(object):
       r = session.get(self.url)
       self.r = r
    def exists(self, tag):
-      if r.html.find(tag):
+      if self.r.html.find(tag):
          return True
       else:
          return False
    def get_text(self, tag):
-      if not r.html.find(tag):
+      if not self.r.html.find(tag):
          return None
-      return [t.text for t in r.html.find(tag)]
+      return [t.text for t in self.r.html.find(tag)]
