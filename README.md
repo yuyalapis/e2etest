@@ -6,7 +6,7 @@ Simple End-to-End Test for web
 pip install e2etest
 ```
 
-```
+```python
 from e2etest import E2E
 e2e = E2E(url)
 assert e2e.exists("p")
