@@ -7,6 +7,8 @@ class E2E(object):
       session = HTMLSession()
       r = session.get(self.url)
       self.r = r
+   def render(self):
+      self.r.html.render()
    def exists(self, tag):
       if self.r.html.find(tag):
          return True
