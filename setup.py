@@ -15,7 +15,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 LONG_DESCRIPTION = readme
 LONG_DESCRIPTION_CONTENT_TYPE = 'text/markdown'
 KEYWORDS = 'e2e test End-to-End'
-VERSION = '0.1.10'
+VERSION = '0.1.11'
 
 setup(
     name=NAME,
