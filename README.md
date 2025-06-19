@@ -1,5 +1,5 @@
-# e2etest
-Simple End-to-End Test for web [![PyPI Downloads](https://static.pepy.tech/badge/e2etest/month)](https://pepy.tech/projects/e2etest)
+# e2etest [![PyPI Downloads](https://static.pepy.tech/badge/e2etest/month)](https://pepy.tech/projects/e2etest)
+Simple End-to-End Test for web
 
 ## Usage
 ```
