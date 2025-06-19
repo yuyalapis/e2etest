@@ -8,7 +8,7 @@ pip install e2etest
 
 ```python
 from e2etest import E2E
-url = "https://lapisai.com/"
+url = "https://lapisai.com"
 e2e = E2E(url)
 e2e.render()
 assert e2e.exists("p") == True
